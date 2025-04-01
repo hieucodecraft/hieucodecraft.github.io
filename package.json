@@ -1,0 +1,30 @@
+{
+  "name": "phuc16102001.github.io",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://phuc16102001.github.io/",
+  "dependencies": {
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "compile-css": "sass assets/custom/bootstrap.scss assets/custom/bootstrap.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
